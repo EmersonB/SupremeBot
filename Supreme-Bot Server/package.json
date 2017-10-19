@@ -1,0 +1,23 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.0.2",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "4.13.3",
+    "cors": "latest",
+    "python-shell": "latest"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
