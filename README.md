@@ -1,5 +1,5 @@
 # Supreme-Bot
-1. Go to - https://github.com/EmersonB/Supreme-Bot
+1. Go to - https://github.com/EmersonB/SupremeBot
 2. Download as zip or git pull
 3. Locate chrome extensions here - chrome://extensions/
 4. Enable developer mode
