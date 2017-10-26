@@ -97,32 +97,6 @@ function init() {
 
     //load json with items
 
-    var request = new XMLHttpRequest()
-    request.open('GET', 'http://ec2-52-56-173-67.eu-west-2.compute.amazonaws.com/items.json', true)
-
-    request.onload = function(){
-      if (request.status >= 200 && request.status < 400){
-        var json = JSON.parse(request.responseText).items
-        var latest = JSON.parse(request.responseText).update_time
-        $('#lu').text(latest)
-        display_items(json)
-
-        //update added items
-
-        code_arr = items.img_codes
-        for(code in code_arr){
-          code = code_arr[code]
-          elt = document.getElementById(code)
-
-          elt.classList.remove('btn-primary')
-          elt.classList.add('btn-success')
-          elt.innerHTML = 'added'
-        }
-      }
-    }
-    request.send()
-
-
   });
 
 }
