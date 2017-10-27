@@ -61,7 +61,7 @@ router.route('/supreme')
   }
   PythonShell.run('python/supremenewyork_v3.py', options, function (err, results) {
       if (err){
-        //console.log(err);
+        console.log(err);
         res.json({'url': ["error"]})
       }
       else{
